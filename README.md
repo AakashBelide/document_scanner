@@ -8,17 +8,31 @@ Make and empty folder with the name "Scanned". After the document is scanned pro
 
 # Procedure:
 • RESIZE IMAGE
+
 • CREATE A BLANK IMAGE FOR TESTING
+
 • CONVERT IMAGE TO GRAY SCALE
+
 • ADD GAUSSIAN BLUR
+
 • GET TRACK BAR VALUES FOR THRESHOLDS (You can control them to get select proper edges of document)
+
 • APPLY CANNY BLUR
+
 • APPLY DILATION
+
 • APPLY EROSION
+
 • FIND AND DRAW ALL DETECTED CONTOURS
+
 • FIND AND DRAW THE BIGGEST CONTOUR AMONG ALL THE CONTOURS
+
 • PREPARE POINTS FOR WARP
+
 • REMOVE 20 PIXELS FORM EACH SIDE (You can change it if you want) - to remove unwanted edges if the documents edges are folded, etc.
+
 • APPLY ADAPTIVE THRESHOLD
+
 • DISPLAYING VARIOUS STEPS OF SCANNING
+
 • SAVING THE IMAGE
