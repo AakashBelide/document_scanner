@@ -1,5 +1,5 @@
 # document_scanner
-Document scanner made using OpenCV in Python.
+Document scanner created using OpenCV in Python.
 
 The images provided are sample images. You can add images of the document which you want to scan in the folder where you place the Python files.
 You can rename the pathImage variable in the Python file accordingly.
